@@ -24,11 +24,11 @@ client.on('messageCreate', async (message) => {
         }
 
         if(command.toLowerCase() === 'hello'){
-            await message.reply("Hello there!");
+            await message.reply("Hello there! i-am-groot😊");
         }
     }
     
-    if (message.content == '$listCommands') {
+    if(message.content == '$listCommands') {
         const exampleEmbed = new MessageEmbed()
             .setColor('#ffd046')
             .setTitle('Server Commands')
